@@ -1,0 +1,17 @@
+{
+    "model_name_or_path": "models/fold4_t5",
+    "do_train": false,
+    "do_eval": false,
+    "do_predict": true,
+    "predict_with_generate": true,
+    "text_column": "recipe",
+    "summary_column": "out",
+    "output_dir": "predict/fold4_t5",
+    "overwrite_output_dir": true,
+    "validation_file": "data/validation_2023_2_22_3245_f4.csv",
+    "test_file": "data/test_2023_2_22_3245_f4.csv",
+    "per_device_eval_batch_size": 3,
+    "max_target_length": 2580,
+    "max_source_length": 420,
+    "generation_max_length": 2580
+}

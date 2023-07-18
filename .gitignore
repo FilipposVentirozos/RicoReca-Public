@@ -1,0 +1,12 @@
+data/*
+!data/.gitkeep 
+.idea
+.vscode
+/__pycache__/*
+*.pyc
+recipe-transformation-evaluation/__pycache__/*
+recipe-transformation-evaluation/log/*
+!/recipe-transformation-evaluation/log/.gitkeep
+recipe-transformation-evaluation/venv
+preprocessing-annotation/__pycache__
+preprocessing-annotation/venv
